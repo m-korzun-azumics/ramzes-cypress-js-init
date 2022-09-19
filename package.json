@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test:headless": "cypress run --browser=chrome"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.28.5",
+    "allure-commandline": "^2.18.1",
+    "cypress": "^10.6.0",
+    "eslint-plugin-cypress": "^2.12.1"
+  }
+}
